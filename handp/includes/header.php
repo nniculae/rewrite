@@ -1,5 +1,5 @@
 <header id="header">
-    <h1 id="logo"><img src="images/logo.png" alt="Hansel and Petal" height="124" width="207"></h1>
+    <h1 id="logo"><img src="/rewrite/handp/images/logo.png" alt="Hansel and Petal" height="124" width="207"></h1>
     <div class="inner">
         <form action="results.php" method="get" id="quick_search" role="search">
             <input id="quickSearch" name="searchterm" class="text white"
@@ -13,9 +13,9 @@
 </header>
 <nav id="nav_main" class="reset menu pull_out">
     <ul>
-        <li><a href="arrangements"><span>Arrangements</span></a></li>
-        <li><a href="flowers"><span>Fresh Flowers</span></a></li>
-        <li><a href="orchids.php"><span>Care for Orchids</span></a></li>
+        <li><a href="/rewrite/handp/arrangements"><span>Arrangements</span></a></li>
+        <li><a href="/rewrite/handp/flowers"><span>Fresh Flowers</span></a></li>
+        <li><a href="/rewrite/handp/care/orchids"><span>Care for Orchids</span></a></li>
         <li><a href="#"><span>Live Plants</span></a></li>
         <li><a href="#"><span>Events</span></a></li>
         <li><a href="#"><span>Eco-Conscious</span></a></li>

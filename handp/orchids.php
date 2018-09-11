@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>Care Tips - Orchids - Hansel and Petal</title>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link href="styles/handp.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="/rewrite/handp/images/favicon.ico" type="image/x-icon">
+<link href="/rewrite/handp/styles/handp.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -237,19 +237,19 @@
             
            
                 <ul class="reset single_col">
-                    <li> <img src="images/200_phalaenopsis_164373689.jpg" alt="Phalaenopsis" height="200" width="200">
+                    <li> <img src="/rewrite/handp/images/200_phalaenopsis_164373689.jpg" alt="Phalaenopsis" height="200" width="200">
                         <h3>Phalaenopsis “Moth&nbsp;Orchid”</h3>
                         <p class="reset">From $19.95</p>
                         </li>
-                    <li> <img src="images/200_dendrobium2_152158743.jpg" alt="Dendrobium" height="200" width="200">
+                    <li> <img src="/rewrite/handp/images/200_dendrobium2_152158743.jpg" alt="Dendrobium" height="200" width="200">
                         <h3>Dendrobium Orchid “Lei&nbsp;Orchid”</h3>
                         <p class="reset">From $25.95</p>
                         </li>
-                    <li> <img src="images/200_oncidium2_152176782.jpg" alt="" height="200" width="200">
+                    <li> <img src="/rewrite/handp/images/200_oncidium2_152176782.jpg" alt="" height="200" width="200">
                         <h3>Oncidium Orchid “Dancing&nbsp;Lady”</h3>
                         <p class="reset">From $22.95</p>
                         </li>
-                    <li> <img src="images/200_cattleya2_149067833.jpg" alt="" height="200" width="200">
+                    <li> <img src="/rewrite/handp/images/200_cattleya2_149067833.jpg" alt="" height="200" width="200">
                         <h3>Cattleya Orchid “Corsage&nbsp;Orchid”</h3>
                         <p class="reset">From $29.95</p>
                         </li>

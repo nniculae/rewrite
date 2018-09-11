@@ -7,8 +7,8 @@ $sql = 'SELECT * FROM arrangements';
 <head>
 <meta charset="utf-8">
 <title>Mixed Arrangements - Hansel and Petal</title>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link href="styles/handp.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="/rewrite/handp/images/favicon.ico" type="image/x-icon">
+<link href="/rewrite/handp/styles/handp.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="no_col_2">

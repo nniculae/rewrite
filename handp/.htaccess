@@ -3,3 +3,4 @@ RewriteEngine On
 # NC = case insensitive
 # L = stop other rules for beinge processed if a match has been made  
 RewriteRule ^(arrangements|flowers)$ $1.php [NC,L]
+RewriteRule ^care/orchids$ orchids.php [NC,L]
