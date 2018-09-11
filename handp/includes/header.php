@@ -13,8 +13,8 @@
 </header>
 <nav id="nav_main" class="reset menu pull_out">
     <ul>
-        <li><a href="arrangements.php"><span>Arrangements</span></a></li>
-        <li><a href="flowers.php"><span>Fresh Flowers</span></a></li>
+        <li><a href="arrangements"><span>Arrangements</span></a></li>
+        <li><a href="flowers"><span>Fresh Flowers</span></a></li>
         <li><a href="orchids.php"><span>Care for Orchids</span></a></li>
         <li><a href="#"><span>Live Plants</span></a></li>
         <li><a href="#"><span>Events</span></a></li>
