@@ -23,8 +23,8 @@ if ($searchterm) {
 <head>
 <meta charset="utf-8">
 <title>Mixed Arrangements - Hansel and Petal</title>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link href="styles/handp.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="/rewrite/handp/images/favicon.ico" type="image/x-icon">
+<link href="/rewrite/handp/styles/handp.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="no_col_2">
@@ -50,7 +50,7 @@ if ($searchterm) {
       <h2>Fresh Flowers</h2>
       <section class="results">
         <?php do { ?>
-        <figure> <img src="images/<?= $row['image']; ?>" height="160" width="160">
+        <figure> <img src="/rewrite/handp/images/<?= $row['image']; ?>" height="160" width="160">
           <figcaption>
             <?= $row['description']; ?>
           </figcaption>
@@ -63,9 +63,9 @@ if ($searchterm) {
                 $stmt = $db->prepare($arrangements);
                 $stmt->execute([':searchterm' => '%' . $searchterm . '%']);
                 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
-        <figure><a href="details.php?arrangement_id=<?= $row['arrangement_id'];
+        <figure><a href="/rewrite/handp/details.php?arrangement_id=<?= $row['arrangement_id'];
                         ?>"> <img
-                                src="images/<?= $row['image']; ?>" alt="<?= $row['alt'];
+                                src="/rewrite/handp/images/<?= $row['image']; ?>" alt="<?= $row['alt'];
                             ?>"
                                 height="200"
                                 width="200">

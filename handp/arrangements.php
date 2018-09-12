@@ -36,7 +36,7 @@ $sql = 'SELECT * FROM arrangements';
                         <div class="inner">
                             <p class="overlay large">Arrangements for Every Occasion</p>
                             <p class="overlay price">Starting at $39.95</p>
-                            <img src="images/710_arrangement_97881968.jpg" alt="Mixed Arrangement" height="300" width="710">
+                            <img src="/rewrite/handp/images/710_arrangement_97881968.jpg" alt="Mixed Arrangement" height="300" width="710">
                         </div>
                     </div>
                 </div>
@@ -46,8 +46,8 @@ $sql = 'SELECT * FROM arrangements';
             <?php  else : ?>
             <section class="results">
                 <?php foreach ($db->query($sql) as $row) : ?>
-                <figure> <a href="details.php?arrangement_id=<?= $row['arrangement_id']; ?>"> 
-                    <img src="images/<?= $row['image']; ?>" alt="<?= $row['alt']; ?>" height="200" width="200">
+                <figure> <a href="/rewrite/handp/details/<?= $row['arrangement_id']; ?>">
+                    <img src="/rewrite/handp/images/<?= $row['image']; ?>" alt="<?= $row['alt']; ?>" height="200" width="200">
                     <figcaption>
                         <h3>
                             <?= $row['title']; ?>

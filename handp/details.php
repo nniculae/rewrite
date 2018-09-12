@@ -10,8 +10,8 @@ $row = $stmt->fetch();
 <head>
 <meta charset="utf-8">
 <title>Mixed Arrangements - Hansel and Petal</title>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link href="styles/handp.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="/rewrite/handp/images/favicon.ico" type="image/x-icon">
+<link href="/rewrite/handp/styles/handp.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@ $row = $stmt->fetch();
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Arrangements</a></li>
-                <li><a href="arrangements.php">Mixed Arrangements</a></li>
+                <li><a href="/rewrite/handp/arrangements">Mixed Arrangements</a></li>
                 <li>
                     <?php if (isset($row['title'])) {
 				        echo $row['title']; 
@@ -37,7 +37,7 @@ $row = $stmt->fetch();
         </div>    
             <?php } else { ?>
             <h1 class="inline_block"><?php echo $row['title']; ?></h1>
-            <figure class="arrangement"><img src="images/<?= $row['image']; ?>" alt="<?= $row['alt']; ?>" width="200" height="200">
+            <figure class="arrangement"><img src="/rewrite/handp/images/<?= $row['image']; ?>" alt="<?= $row['alt']; ?>" width="200" height="200">
                 <figcaption>Price from $<?= $row['price']; ?></figcaption>
             </figure>
             <?= $row['description']; ?>

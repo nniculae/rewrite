@@ -1,7 +1,7 @@
 <header id="header">
     <h1 id="logo"><img src="/rewrite/handp/images/logo.png" alt="Hansel and Petal" height="124" width="207"></h1>
     <div class="inner">
-        <form action="results.php" method="get" id="quick_search" role="search">
+        <form action="/rewrite/handp/results.php" method="get" id="quick_search" role="search">
             <input id="quickSearch" name="searchterm" class="text white"
                    placeholder="Find the perfect flowers or plants…" type="search">
             <span class="btn_icon icon_search">
